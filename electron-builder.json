@@ -1,0 +1,8 @@
+{
+    "appId": "com.example.electronapp",
+    "files": ["dist-electron/**/*", "dist-react/**/*"],
+    "icon": "./desktopIcon.png",
+    "win":{
+        "target": ["portable", "msi"]
+    }
+}
