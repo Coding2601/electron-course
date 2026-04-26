@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
@@ -7,7 +8,7 @@ function App() {
 
   useEffect(() => {
     // @ts-expect-error
-    window.electron.getStaticData((stats) => console.log(stats));
+    window.electron.subscribeStatics((stats) => console.log(stats));
   }, []);
 
   return (

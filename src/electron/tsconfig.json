@@ -9,6 +9,8 @@
         // requires strict type check (not null)
         "strict": true,
         // ignore errors from dependencies
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        // add global types
+        "types": ["../../types"]
     }
 }
